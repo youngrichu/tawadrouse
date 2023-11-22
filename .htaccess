@@ -7,12 +7,16 @@
          AddOutputFilterByType DEFLATE application/x-font-otf
          AddOutputFilterByType DEFLATE application/x-font-truetype
          AddOutputFilterByType DEFLATE application/x-font-ttf
+         AddOutputFilterByType DEFLATE application/x-font-woff
+         AddOutputFilterByType DEFLATE application/x-font-woff2
          AddOutputFilterByType DEFLATE application/x-javascript
          AddOutputFilterByType DEFLATE application/xhtml+xml
          AddOutputFilterByType DEFLATE application/xml
          AddOutputFilterByType DEFLATE font/opentype
          AddOutputFilterByType DEFLATE font/otf
          AddOutputFilterByType DEFLATE font/ttf
+         AddOutputFilterByType DEFLATE font/woff
+         AddOutputFilterByType DEFLATE font/woff2
          AddOutputFilterByType DEFLATE image/svg+xml
          AddOutputFilterByType DEFLATE image/x-icon
          AddOutputFilterByType DEFLATE text/css
