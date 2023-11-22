@@ -23,6 +23,14 @@
 	font-style: normal;
 	font-display: swap; /* Add font-display property */
   }
+  /* teko-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Teko';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/teko-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
 svg#thread {
     margin: 1em 0;
 }
