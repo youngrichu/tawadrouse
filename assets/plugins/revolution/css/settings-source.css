@@ -87,7 +87,7 @@ website:   	http://www.themepunch.com
        url('../fonts/revicons/revicons.svg?5510999#revicons') format('svg');
   font-weight: normal;
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
  [class^="revicon-"]:before, [class*=" revicon-"]:before {
