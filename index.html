@@ -1000,16 +1000,32 @@
 <script src="assets/js/validate.js" async></script>
 <script src="assets/js/nav-tool.js" defer></script>
 <!-- <script src="assets/js/jquery-ui.js"></script> -->
-<script src="https://www.google.com/recaptcha/api.js" defer></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js" defer></script> -->
+<script>
+	var onloadCallback = function() {
+	  // Handle the onload event (e.g., rendering the ReCaptcha widget)
+	};
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+  
 <script src="assets/js/script.js?v=1.0" async></script>
-<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-NC5PZ238NJ"></script> 
+<!-- Google tag (gtag.js) --> 
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NC5PZ238NJ"></script> 
 <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-NC5PZ238NJ'); </script>
 <script>
 	window.dataLayer = window.dataLayer || [];
 	function gtag() { dataLayer.push(arguments); }
 	gtag('js', new Date());
 	gtag('config', 'G-NC5PZ238NJ');
+</script> -->
+<script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','G-NC5PZ238NJ');
   </script>
+  
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     var contactForm = document.getElementById("contact-form");
