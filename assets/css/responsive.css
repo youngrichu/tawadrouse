@@ -262,9 +262,47 @@
 
 
 @media only screen and (max-width: 976px){
-	
-	
-	
+	.main-header .header-upper .logo, .main-header .sticky-header .logo {
+		float: none;
+		display: flex;
+		justify-content: center;
+	}	
+	.pull-right {
+		margin-top: -2em;
+	}
+	.main-header .sticky-header .logo {
+		height: 0px;
+	}
+	.sec-title .title {
+		display: flex;
+		justify-content: center;
+	}
+	.sec-title .title:before {
+		position: relative;
+		left: -5px;
+	}
+	.form-section .sec-title h2 {
+		text-align: center;
+	}
+	.g-recaptcha {
+		display: flex;
+		justify-content: center;
+	}
+	.default-form .form-group {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		float: none;
+	}
+	.main-slider .vector-layer-four {
+		display: none;
+	}
+	.main-slider .vector-layer-three {
+		animation: none;
+	}
+	.main-slider .tp-caption {
+    transform: none;
+}
 }
 	
 @media only screen and (max-width: 1023px){
@@ -304,9 +342,12 @@
 	.main-header .main-menu .navigation > li > a{
 		font-size:var(--font-16);
 	}
-	.about-section{
+	.about-section,.business-section{
 		padding: 0;
 		text-align: center;
+	}
+	.form-section{
+		padding-top: 1rem;
 	}
 	.about-section .content-column{
 		order:1;

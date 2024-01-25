@@ -1274,7 +1274,7 @@
 
 .mobile-menu-visible .mobile-menu .menu-box {
     right: 0;
-    transition-delay: 400ms; /* Reduced from 600ms */
+    transition-delay: 100ms; /* Reduced from 600ms */
 }
 
 .mobile-menu .close-btn{
